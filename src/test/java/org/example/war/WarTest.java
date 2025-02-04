@@ -1,18 +1,18 @@
 package org.example.war;
 
-import org.example.saxon.Saxon;
-import org.example.viking.Viking;
-import org.junit.jupiter.api.Test;
+//import org.example.saxon.Saxon;
+//import org.example.viking.Viking;
+//import org.junit.jupiter.api.Test;
+//
+//import java.util.List;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-class WarTest {
-
-    String name = "Harald";
-    int strength = 150;
-    int health = 300;
+//class WarTest {
+//
+//    String name = "Harald";
+//    int strength = 150;
+//    int health = 300;
 
 //    Saxon saxon = new Saxon(health, strength);
 //    Viking viking = new Viking(name, health, strength);
@@ -117,4 +117,4 @@ class WarTest {
 //        String response = war.saxonAttack();
 //        assertEquals(viking.getName() + "has received" + saxon.getStrength() + "points of damage", response);
 //    }
-}
+//}

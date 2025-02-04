@@ -8,18 +8,18 @@ class SoldierTest {
     int strength = 150;
     int health = 300;
 
-//    @Test
-//    public void should_receive_2_arguments() {
-//        Soldier soldier = new Soldier(health, strength);
-//        assertNotNull(soldier);
-//    }
-//
-//    @Test
-//    public void should_receive_the_health_property_as_its_1st_argument() {
-//        Soldier soldier = new Soldier(health, strength);
-//        assertEquals(300, soldier.health);
-//    }
-//
+    @Test
+    public void should_receive_2_arguments() {
+        Soldier soldier = new Soldier(health, strength);
+        assertNotNull(soldier);
+    }
+
+    @Test
+    public void should_receive_the_health_property_as_its_1st_argument() {
+        Soldier soldier = new Soldier(health, strength);
+        assertEquals(300, soldier.health);
+    }
+
 //    @Test
 //    public void should_receive_the_health_property_as_its_2st_argument() {
 //        Soldier soldier = new Soldier(health, strength);
